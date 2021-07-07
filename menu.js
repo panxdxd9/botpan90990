@@ -66,6 +66,10 @@ return `
 ┃ ${p}unblock (num)
 ┃ ${p}msginfo
 ┃ ${p}chatinfo
+┣━━━━━🔇 𝙈𝙐𝙏𝘼𝙍 🔇━━━━━╮
+┃ ${p}mute (marcar)
+┃ ${p}desmute (marcar)
+┃ ${p}mutados
 ┣━━━━━💫 𝙇𝙀𝙑𝙀𝙇 💫━━━━━╮
 ┃ ${p}deletelevel
 ┃ ${p}level (n/a, num)
@@ -136,7 +140,8 @@ return `
 ┃ ou marque alguém
 ┃
 ┃ ${p}triggerfig
-┃ ${p}triggered 
+┃ ${p}triggered
+┃ ${p}amongus 
 ┃ ${p}lisa (txt)
 ┃ ${p}sepie 
 ┃ ${p}invert
@@ -253,6 +258,7 @@ return `
 ┃ ${p}map (name)
 ┃ ${p}brainlysrc (name)
 ┃ ${p}search (name)
+┃ ${p}searchv2 (name)
 ┃ ${p}ssweb (url)
 ┃ ${p}mediafire (url)
 ┃ ${p}mob
@@ -346,6 +352,7 @@ return `
 ┃ ${p}playv2 (music name)
 ┃ ${p}tomp3 (cap, resp vid)
 ┃ ${p}ytsearch (name)
+┃ ${p}ytsrc (name)
 ┃ ${p}ytmp4 (yt url)
 ┃ ${p}ytmp3 (yt url)
 ┣━━━⚙️ 𝙂𝙀𝙍𝘼𝘿𝙊𝙍 ⚙️━━━━╮
