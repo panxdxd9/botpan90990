@@ -1,7 +1,7 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["51974748742@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '51974748742' 
 // mude para seu numero
 
 var gimagenotregister = false
@@ -10,7 +10,7 @@ var gimagenotregister = false
 var sgooglenotregister = false
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const antinewchatmsg = 'O anti chat novo está ativado e você não é meu proprietário, logo será bloqueado'
+const antinewchatmsg = 'El anti chat esta activado'
 //mensagem do antinewchat
 
 const urlaudiomenu = 'https://b.top4top.io/m_19923zx481.mp3'
@@ -25,24 +25,24 @@ const delayantispamcmd = 3
 //tempo de delay do antispamcmd (medido por segundos)
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
+    return `Sea bienvenido ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
-    return `Adeus ${numero}`
+    return `Chau ${numero}`
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname, battery) => {
-    return `MENU DO BRIZAS-BOT COM 434 COMANDOS, BATERIA: ${battery}`
+    return `MENU BOT Con 434 COMANDOS, BATERIA: ${battery}`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const titlemenumsgimg = 'BEM-VINDO'
+const titlemenumsgimg = 'Bienvenido'
 //Título no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
@@ -61,16 +61,16 @@ const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = '☄️✨𝑩𝑹⃟𝑰𝒁𝑨𝑺 𝑶⃟𝑹𝑰𝑶𝑵✨☄️\n' 
+const cr = '𝓟𝓪𝓷 𝓫𝓸𝓽\n' 
 // texto do simbolo de verificado
 
 const prefix = '!' 
 // prefixo
 
-const blockedmsg = '*😜 Seu número esta bloqueado, ou seja não ouvindo você 😜*'
+const blockedmsg = '* Tu numero esta bloqueado*'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário do bot para saber o pq🚫*'
+const blockedcmdmsg = '*🚫Este comando esta bloqueado contacte al propietario para saber porque🚫*'
 // mensagem quando alguem solicita um comando bloqueado 
 
 // MENSAGENS DE BAN
@@ -119,7 +119,7 @@ const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = 'Error '
 // mensagem de erro
 
 const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
@@ -143,18 +143,18 @@ const numbotfeio = 'senhora sua mãe 😡'
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
-    success: '✔️ Sucesso! ✔️',
+    wait: '⌛ Espera que tengo 2gb de ram  ⌛',
+    success: '✔️ Exito! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+        stick: '❌ El pelotudo de mi dueño de seguro esta descargando musica perdon ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
-        group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        group: '❌ Este comando solo puede ser usado en grupos! ❌',
+        ownerG: '❌ Este comando solo funciona en el grupo del propietario! ❌',
+        ownerB: '❌ Este comando solo puede ser usado por el propietario! ❌',
+        admin: '❌ SILENCIO MIEMBRO COMUN NO PUEDES USAR ESTE COMANDO❌',
+        Badmin: '❌ Este comando solo puede ser usado cuando eres admin! ❌'
     }
 }
 
@@ -163,8 +163,8 @@ let mess = {
 const vcard = 'BEGIN:VCARD\n' 
 + 'VERSION:3.0\n' 
 + 'FN:Meu criador^~^\n' 
-+ 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'ORG:PanN;\n' 
++ 'TEL;type=CELL;type=VOICE;waid=51974748742:+51 97 4748-742\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
