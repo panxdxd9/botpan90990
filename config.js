@@ -13,7 +13,7 @@ var sgooglenotregister = false
 const antinewchatmsg = 'El anti chat esta activado'
 //mensagem do antinewchat
 
-const urlaudiomenu = 'https://b.top4top.io/m_19923zx481.mp3'
+const urlaudiomenu = 'https://vgmsite.com/soundtracks/ever-17-the-out-of-infinity-2002-pc/owzxzztbjy/01.%20Intro.mp3'
 // link direto da url do audio
 
 const antipvmsg = '*🚫 PV BLOQUEADO 🚫*'
